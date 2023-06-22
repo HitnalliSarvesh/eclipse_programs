@@ -16,36 +16,65 @@ public class Telegram {
 		System.out.println("No-Argument constructor");
 	}
 	
-	public Telegram(String migratephoneNumber,String uploadProfilePictures,String jobsApplication,String telegramBots,String nightMode,
-			String muteContacts,String createGroups,String liveLocation,String privacy,String security) {
-		System.out.println("All-argument constructor");
+	public void setMigratephoneNumber(String migratephoneNumber) {          
 		this.migratephoneNumber=migratephoneNumber;
+	}
+	public String getMigratephoneNumber() {
+		return migratephoneNumber;
+	}
+	public void setUploadProfilePictures(String uploadProfilePictures) {          
 		this.uploadProfilePictures=uploadProfilePictures;
+	}
+	public String getUploadProfilePictures() {
+		return uploadProfilePictures;
+	}
+	public void setJobsApplication(String jobsApplication) {          
 		this.jobsApplication=jobsApplication;
+	}
+	public String getJobsApplication() {
+		return jobsApplication;
+	}
+	public void setTelegramBots(String telegramBots) {          
 		this.telegramBots=telegramBots;
+	}
+	public String getTelegramBots() {
+		return telegramBots;
+	}
+	public void setNightMode(String nightMode) {          
 		this.nightMode=nightMode;
+	}
+	public String getNightMode() {
+		return nightMode;
+	}
+	public void setMuteContacts(String muteContacts) {          
 		this.muteContacts=muteContacts;
+	}
+	public String getMuteContacts() {
+		return muteContacts;
+	}
+	public void setCreateGroups(String createGroups) {          
 		this.createGroups=createGroups;
+	}
+	public String getCreateGroups() {
+		return createGroups;
+	}
+	public void setLiveLocation(String liveLocation ) {          
 		this.liveLocation=liveLocation;
+	}
+	public String getLiveLocation() {
+		return liveLocation;
+	}
+	public void setPrivacy(String privacy) {          
 		this.privacy=privacy;
+	}
+	public String getPrivacy() {
+		return privacy;
+	}
+	public void setSecurity(String security) {          
 		this.security=security;
 	}
-	
-	public void chat() {
-		System.out.println("Chat method");
-	}
-	public void download() {
-		System.out.println("Download method");
-	}
-	public void upload() {
-		System.out.println("Upload method");
-	}
-	public void customize() {
-		System.out.println("Customize method");
-	}
-	public void delete() {
-		System.out.println("Delete method");
+	public String getSecurity() {
+		return security;
 	}
 
-	
 }

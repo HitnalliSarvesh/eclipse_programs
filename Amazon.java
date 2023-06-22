@@ -16,37 +16,65 @@ public class Amazon {
 		System.out.println("No-Argument constructor");
 	}
 	
-	public Amazon(String reviews,String productImages,String productdescriptions,String productVariation,String offers,
-			String discounts,String order,String delivery,String multipleAccounts,String refund) {
-		
-		System.out.println("All-Argument Constructor");
+	public void setReviews(String reviews) {          
 		this.reviews=reviews;
+	}
+	public String getReviews() {
+		return reviews;
+	}
+	public void setProductImages(String productImages) {          
 		this.productImages=productImages;
+	}
+	public String getProductImages() {
+		return productImages;
+	}
+	public void setProductdescriptions(String productdescriptions) {          
 		this.productdescriptions=productdescriptions;
+	}
+	public String getProductdescriptions() {
+		return productdescriptions;
+	}
+	public void setProductVariation(String productVariation) {          
 		this.productVariation=productVariation;
+	}
+	public String getProductVariation() {
+		return productVariation;
+	}
+	public void setOffers(String offers) {          
 		this.offers=offers;
+	}
+	public String getOffers() {
+		return offers;
+	}
+	public void setDiscounts(String discounts) {          
 		this.discounts=discounts;
+	}
+	public String getDiscounts() {
+		return discounts;
+	}
+	public void setOrder(String order) {          
 		this.order=order;
+	}
+	public String getOrder() {
+		return order;
+	}
+	public void setDelivery(String delivery ) {          
 		this.delivery=delivery;
+	}
+	public String getDelivery() {
+		return delivery;
+	}
+	public void setMultipleAccounts(String multipleAccounts) {          
 		this.multipleAccounts=multipleAccounts;
-		this.refund=refund;	
+	}
+	public String getMultipleAccounts() {
+		return multipleAccounts;
+	}
+	public void setRefund(String refund) {          
+		this.refund=refund;
+	}
+	public String getRefund() {
+		return refund;
 	}
 	
-	public void shop() {
-		System.out.println("Shop method");
-	}
-	public void watch() {
-		System.out.println("Watch method");
-	}
-	public void pay() {
-		System.out.println("Pay method");
-	}
-	public void multipleAccounts() {
-		System.out.println("Multiple Accounts method");
-	}
-	public void exchangeAndReturn() {
-		System.out.println("Exchange and Return method");
-	}
-	
-
 }
